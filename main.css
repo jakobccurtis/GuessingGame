@@ -3,6 +3,9 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #9bc400;
     width: 50%;
     max-width: 750px;
@@ -11,5 +14,29 @@ body {
 }
 
 #guessbox {
+    display: flex;
     background-color: #8076a3;
+    color: white;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 25px;
+    border-style: none;
+    margin: 30px 30px;
+    padding-top: 40px;
+}
+
+#attempts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+button {
+    background-color:  #f9c5bd; 
+    border-radius: 20px;
+    width: 80px;
 }
