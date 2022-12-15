@@ -1,0 +1,42 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9bc400;
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+#guessbox {
+    background-color: #8076a3;
+    color: white;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 25px;
+    /* border-style: none; */
+}
+
+#attempts{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 50px;
+    align-items: center;
+
+}
+button{
+    background-color: #f9c5bd;
+    border-radius: 20px;
+    width: 80px;
+
+}
